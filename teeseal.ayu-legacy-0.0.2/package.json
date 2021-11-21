@@ -1,0 +1,62 @@
+{
+	"name": "ayu-legacy",
+	"displayName": "Ayu Legacy",
+	"description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
+	"version": "0.0.2",
+	"publisher": "TeeSeal",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TeeSeal/vscode-ayu-legacy"
+	},
+	"bugs": {
+		"url": "https://github.com/TeeSeal/vscode-ayu-legacy/issues",
+		"email": "teesealz@gmail.com"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icon-theme",
+		"theme",
+		"ayu"
+	],
+	"homepage": "https://github.com/TeeSeal/vscode-ayu-legacy",
+	"icon": "assets/logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ayu Dark (Legacy)",
+				"uiTheme": "vs-dark",
+				"path": "./ayu-dark.json"
+			},
+			{
+				"label": "Ayu Light (Legacy)",
+				"uiTheme": "vs",
+				"path": "./ayu-light.json"
+			},
+			{
+				"label": "Ayu Mirage (Legacy)",
+				"uiTheme": "vs-dark",
+				"path": "./ayu-mirage.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node ./build.js",
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"ayu": "4.0.0",
+		"vsce": "1.22.0"
+	},
+	"__metadata": {
+		"id": "e9babea9-918e-4b81-b68f-4f3ea3113e1e",
+		"publisherId": "57ec51c2-c9b7-4a0d-8e99-cb51ba7fe37b",
+		"publisherDisplayName": "TeeSeal",
+		"installedTimestamp": 1637461230554
+	}
+}
